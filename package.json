@@ -1,6 +1,6 @@
 {
   "name": "eb-disable-npm",
-  "version": "1.2.5",
+  "version": "0.0.0",
   "description": "Disables npm in Elastic Beanstalk environments.",
   "scripts": {
     "install": "install-files source",
