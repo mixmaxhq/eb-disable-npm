@@ -1,9 +1,9 @@
 # eb-disable-npm
 
 This package is the successor to https://github.com/mixmaxhq/eb-fix-npm/.
-Even with that package's optimizations, we still found npm to be too slow and
-memory intensive on Elastic Beanstalk, actually forcing us to use more expensive
-EC2 instance types than our application would otherwise require.
+Even with that package's optimizations, we at Mixmax still found npm to be too
+slow and memory intensive on Elastic Beanstalk, actually forcing us to use more
+expensive EC2 instance types than our application would otherwise require.
 
 So, we use this package's `.ebextensions` to prevent Elastic Beanstalk from
 installing/rebuilding modules altogether. Instead, we deploy our Node modules
