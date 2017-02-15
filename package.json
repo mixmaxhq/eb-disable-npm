@@ -1,0 +1,31 @@
+{
+  "name": "eb-disable-npm",
+  "version": "1.2.5",
+  "description": "Disables npm in Elastic Beanstalk environments.",
+  "scripts": {
+    "install": "install-files source",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmaxhq/eb-disable-npm.git"
+  },
+  "keywords": [
+    "eb",
+    "elastic",
+    "beanstalk",
+    "node",
+    "npm",
+    "ebextensions",
+    "ebextension"
+  ],
+  "author": "Jeff Wear <jeff@mixmax.com> (https://mixmax.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/eb-disable-npm/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/eb-disable-npm#readme",
+  "dependencies": {
+    "install-files": "^1.0.0"
+  }
+}
