@@ -11,9 +11,8 @@ along with our application source from our CI server. What makes this possible i
 that it already installs the modules for the purposes of running our tests, and
 uses the same architecture as Elastic Beanstalk's EC2 instances.
 
-This package expects that your Elastic Beanstalk application is using either platform
-version [3.1.0](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.platforms.html#concepts.platforms.nodejs)
-(the latest) or the previous version, version [2.1.3](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platform-history-nodejs.html).
+This package has been tested against Elastic Beanstalk platform versions
+[3.1.0 and 2.1.3](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platform-history-nodejs.html).
 
 ## Installation
 
