@@ -8,8 +8,8 @@ expensive EC2 instance types than our application would otherwise require.
 So, we use this package's `.ebextensions` to prevent Elastic Beanstalk from
 installing/rebuilding modules altogether. Instead, we deploy our Node modules
 along with our application source from our CI server. What makes this possible is
-that it already installs the modules for the purposes of running our tests, and
-uses the same architecture as Elastic Beanstalk's EC2 instances.
+that the CI server already installs the modules for the purposes of running our
+tests, and uses the same CPU architecture as Elastic Beanstalk's EC2 instances.
 
 This package has been tested against Elastic Beanstalk platform versions
 [3.1.0 and 2.1.3](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/platform-history-nodejs.html).
