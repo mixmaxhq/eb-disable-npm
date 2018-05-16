@@ -27,5 +27,8 @@
   "homepage": "https://github.com/mixmaxhq/eb-disable-npm#readme",
   "dependencies": {
     "install-files": "^1.0.0"
+  },
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }
